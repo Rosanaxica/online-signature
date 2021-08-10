@@ -1,5 +1,23 @@
 # OnlineSignature
 
+## Contexto do Projeto
+ Criado para testes e utilização da bibliteca de assinatura digital
+ Implementado o resizing da area de assinatura em outros dispositivos.
+ Uso do biblioteca [angular2-signaturepad](https://www.npmjs.com/package/angular2-signaturepad)
+ 
+# Próximos passos 
+- Melhorar a recuperação da imagem após ajuste da altura e largura 
+- Alterar a lagura inicial para pegar o tamanho da janela ou alterar somente quando o tamanho da tela for difetente do iniciar
+- Criar botões para melhor interação com a aplicação testes 
+- Enviar conteudo da assinatura para api externa 
+
+
+
+# Conhecimentos contidos no projeto
+- HostListener
+- Biblioteca angular2-signaturepad
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.29.
 
 ## Development server
