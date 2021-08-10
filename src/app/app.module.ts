@@ -3,14 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SignatureBoxComponent } from './components/signature-box/signature-box.component';
+import { SignaturePadModule } from 'angular2-signaturepad';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SignatureBoxComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SignaturePadModule
   ],
   providers: [],
   bootstrap: [AppComponent]
